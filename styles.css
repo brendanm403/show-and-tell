@@ -1,0 +1,210 @@
+/* adding fonts */
+
+@font-face {
+    font-family: "cafeteria";
+    src: url(fonts/Cafeteria-Black.otf);
+}
+
+@font-face {
+    font-family: "museo100";
+    src: url(fonts/MuseoSansRounded100.otf);
+}
+
+@font-face {
+    font-family: "museo300";
+    src: url(fonts/MuseoSansRounded300.otf);
+}
+
+@font-face {
+    font-family: "museo500";
+    src: url(fonts/MuseoSansRounded500.otf);
+}
+
+@font-face {
+    font-family: "museo700";
+    src: url(fonts/MuseoSansRounded700.otf);
+}
+
+
+
+body {
+    background-image: url(images/bg-pattern.png);
+    margin: 0;
+    overflow-x: hidden;
+    min-height: 100vh;
+    
+}
+
+h1 {
+    font-family: "cafeteria", sans-serif;
+    
+}
+
+/* nav bar  */
+
+.nav-bar {
+    height: 67px;
+    width: 100vw;
+}
+   
+/* shop desgin */
+
+.shop-top {
+    background-color: white;
+    margin: 0 auto;
+    height: 100%;
+    max-width: 67.5rem;
+    padding-top: 2.1rem;
+    padding-bottom: 0.8rem;
+    text-align: center;
+
+}
+
+.info-header{
+    font-family: "museo700", sans-serif;
+    margin-bottom: 0;
+}
+
+.shop-info{
+    font-family: "museo500", sans-serif;
+    width: 29rem;
+    margin: auto;
+}
+
+.inflation-message{
+    font-family: "museo500", sans-serif;
+    width: 20rem;
+    margin: 0.8rem auto;
+    
+}
+
+.shop-divider{
+    background-color: black;
+    color: white;
+    font-family: "museo500";
+    font-size: 1rem;
+    height: 100%;
+    margin: auto;
+    text-align: center;
+    width: 67.5rem;
+
+    
+}
+
+.divider-text {
+    margin: 0;
+    padding: 0.6rem 0;
+}
+
+.shop-bottom {
+    background-color: white;
+    margin: 0 auto;
+    height: 100%;
+    min-height: 1200px;
+    max-width: 67.5rem;
+    padding: 30px 0; 
+
+}
+
+.sold-out-message {
+    font-family: "museo500", sans-serif;
+    margin-top: 0;
+    padding-top: 1.2rem;
+    text-align: center;
+    
+    
+}
+
+
+.hint-title {
+    background-color: rgb(255, 255, 238);
+    border-style: solid;
+    border-width: 3px;
+    font-family: "museo500", sans-serif;
+    height: 1.1rem;
+    margin: 2rem auto 0 auto;
+    padding: 3px 0;
+    position: relative;
+    text-align: center;
+    width: 336px;
+}
+
+.hint-image {
+    border-style: solid;
+    border-width: 0 3px 3px 3px;
+    left: 4px;
+    margin-left: 366px;
+    position: relative;
+    
+    
+}
+
+.hint-message{
+    border-style: solid;
+    border-width: 0 3px 3px 0;
+    bottom: 29px;
+    height: 80.8px;
+    display: inline-block;
+    font-family: "museo500", sans-serif;
+    right: 5px;
+    position: relative;
+    width: 259px;
+    
+}
+
+.hint-text {
+    margin: 20px 0 0 15px;
+    width: 235px;
+}
+
+.grid-container {
+    display: grid;
+    grid-column-gap: 30px;
+    grid-row-gap: 10px;
+    grid-template-columns: repeat(8, 92px);
+    grid-auto-rows: minmax(180px, auto);
+    justify-content: center;
+    justify-items: center;
+    
+    
+}
+
+.grid-item {
+    width: 100px;
+}
+
+.item-image {
+    margin: 0 0 5px 10px;
+}
+
+.item-name {
+    font-family: "museo500", sans-serif;
+    font-size: 0.9rem;
+    font-weight: bold;
+    margin: 0 0 5px 0;
+    text-align: center;
+}
+
+.in-stock-text {
+    font-family: "museo300", sans-serif;
+    font-size: 0.8rem;
+    margin: 0 0 5px 0;
+    text-align: center;
+}
+
+.price-text {
+    font-family: "museo300", sans-serif;
+    font-size: 0.8rem;
+    margin: 0;
+    text-align: center;
+}
+
+
+.footer {
+    background-image: url(images/pattern-footer.png);
+    height: 7vh;
+    margin-top: 1px;
+    max-height: 150px;
+    text-align: center;
+    width: 100vw;
+}
